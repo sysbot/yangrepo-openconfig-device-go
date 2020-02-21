@@ -2668,8 +2668,8 @@ var ΛEnumTypes = map[string][]reflect.Type{
 		reflect.TypeOf((E_OpenconfigOspfv2_SubTlv_LinkType)(0)),
 	},
 	"/network-instances/network-instance/protocols/protocol/ospfv2/areas/area/lsdb/lsa-types/lsa-type/lsas/lsa/opaque-lsa/traffic-engineering/tlvs/tlv/link/sub-tlvs/sub-tlv/state/type": []reflect.Type{
-		reflect.TypeOf((E_OpenconfigOspfv2_SubTlv_Type)(0)),
 		reflect.TypeOf((E_OpenconfigOspfTypes_OSPF_TE_LINK_TLV_TYPE)(0)),
+		reflect.TypeOf((E_OpenconfigOspfv2_SubTlv_Type)(0)),
 	},
 	"/network-instances/network-instance/protocols/protocol/ospfv2/areas/area/lsdb/lsa-types/lsa-type/lsas/lsa/opaque-lsa/traffic-engineering/tlvs/tlv/node-attribute/sub-tlvs/sub-tlv/state/type": []reflect.Type{
 		reflect.TypeOf((E_OpenconfigOspfTypes_TE_NODE_ATTRIBUTE_TLV_TYPE)(0)),
