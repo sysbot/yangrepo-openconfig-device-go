@@ -67,6 +67,9 @@ container:
 	DOCKER_BUILDKIT=1 docker build -t $(CONTAINER) -f $(DOCKERFILE) .
 
 test: container
+	docker run $(DOCKER_RUN_FLAGS)
+
+console: container
 	docker run -it $(DOCKER_RUN_FLAGS)
 
 container_build: container
