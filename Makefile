@@ -66,7 +66,7 @@ lint: ; @goimports -w ./
 container:
 	DOCKER_BUILDKIT=1 docker build -t $(CONTAINER) -f $(DOCKERFILE) .
 
-console: container
+test: container
 	docker run -it $(DOCKER_RUN_FLAGS)
 
 container_build: container
